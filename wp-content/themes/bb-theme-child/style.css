@@ -9,3 +9,14 @@
 .fl-node-5bc0c43d4c510 .fl-button-wrap {
 	margin: 3em;
 }
+
+/* Adds space between thumbnails */
+.fl-post-gallery-post {
+  margin: 1em;
+}
+
+/* Centers 4 thumbnails on homepage */
+.fl-node-5a0213e562934 > .fl-node-content {
+  position: relative;
+  left: 9em;
+}
