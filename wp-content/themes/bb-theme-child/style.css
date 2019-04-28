@@ -15,8 +15,19 @@
   margin: 1em;
 }
 
-.fl-post-gallery .fl-post-gallery-post {
-  float: none !important;
-  height: auto !important; 
-  width : auto !important;
+@media screen and (min-width: 900px) {
+  /* Centers 4 thumbnails on homepage */
+  .fl-node-5a0213e562934 > .fl-node-content,
+  .fl-node-5bbf5c0547902 > .fl-node-content {
+    position: relative;
+    left: 9em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fl-post-gallery .fl-post-gallery-post {
+    float: none !important;
+    height: auto !important; 
+    width : auto !important;
+  }
 }
