@@ -45,3 +45,7 @@
 .fl-page-content .row {
   margin-top: 0px !important;
 }
+
+.fl-post-gallery-img-horiz {
+  height: auto !important;
+}
