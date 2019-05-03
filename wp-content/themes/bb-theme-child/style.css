@@ -30,11 +30,15 @@
     height: auto !important; 
     width : auto !important;
   }
+
+  .fl-post-gallery-img-horiz {
+    height: auto !important;
+  }
 }
 
 /* Mosu image isnt the right size */
 .mosu-img {
-  height: 100%;
+  height: 100% !important;
 }
 
 .banner-img {
@@ -44,8 +48,4 @@
 
 .fl-page-content .row {
   margin-top: 0px !important;
-}
-
-.fl-post-gallery-img-horiz {
-  height: auto !important;
 }
